@@ -8,4 +8,4 @@ RUN apt install -y nodejs
 RUN apt install -y npm
 
 
-CMD ["/bin/bash",  "-c", "cd /app && npm install && npm start"]
+CMD ["/bin/bash",  "-c", "cd /app && npm install && node app.js"] #npm start
